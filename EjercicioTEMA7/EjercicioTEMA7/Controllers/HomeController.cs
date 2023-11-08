@@ -16,7 +16,7 @@ namespace EjercicioTEMA7.Controllers
             String saludo;
             if (hora > 8 && hora < 12)
             {
-                saludo = "Buenos días";
+                saludo = "Buenos dís";
             }
             else if (hora > 12 && hora < 21)
             {
