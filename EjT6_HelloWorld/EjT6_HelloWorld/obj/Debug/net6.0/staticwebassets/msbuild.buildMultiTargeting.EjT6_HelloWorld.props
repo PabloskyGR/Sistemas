@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EjT6_HelloWorld.props" />
+</Project>

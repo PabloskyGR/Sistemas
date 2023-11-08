@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    DateTime matiHora = DateTime.Now;
+    String conversionMati = matiHora.ToString("HH:mm");
+    int hora = matiHora.Hour;
+    String medio = hora > 12 ? "Es mas de las 12 de la mañana" : "Es menos de las 12 de la mañana";
+ 
+}
+
+<h1>Son las @conversionMati</h1>
+<h1>@medio</h1>
